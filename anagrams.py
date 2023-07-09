@@ -21,7 +21,7 @@ f = open('dict.txt')
 dict = [line.rstrip() for line in open('dict.txt')]
 
 # letters given in anagrams game
-letters = sys.argv[1]
+letters = sys.argv[1].upper()
 bits = ''
 
 # list of solutions
